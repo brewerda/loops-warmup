@@ -13,12 +13,13 @@ public class september {
 
 	}
 	public static void one(int x, int n) {
-		while (n >= 1) {
-			System.out.println(x);
-			x = x * x;
+		int sum = x;
+		while (n > 1) {
+			sum = sum * x;
 			n--;
 		}
-		
+		System.out.println(sum);
+
 
 	}
 	public static void two() {
