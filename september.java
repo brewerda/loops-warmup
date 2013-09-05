@@ -1,14 +1,14 @@
 public class september {
 	public static void main(String[] args) {
-		// zero();
+		zero(5);
 		// one(2, 5);
-		two(7);
+		// two(7);
 	}
-	public static void zero() {
+	public static void zero(int n) {
 		int sum = 0;
-		int n = 5;
+		// int n = 5;
 		for (int i=1;i <= n ; i++ ) {
-			sum = sum + i;
+			sum += i;
 		}
 		System.out.println(sum);
 
