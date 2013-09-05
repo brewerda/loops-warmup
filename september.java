@@ -1,7 +1,8 @@
 public class september {
 	public static void main(String[] args) {
 		// zero();
-		one(2, 5);
+		// one(2, 5);
+		two(7);
 	}
 	public static void zero() {
 		int sum = 0;
@@ -19,10 +20,14 @@ public class september {
 			n--;
 		}
 		System.out.println(sum);
-
-
 	}
-	public static void two() {
+	public static void two(int x) {
+		int sum = 1;
+		for (x=x;x > 0 ;x-- ) {
+			sum *= x;
+		}
+		System.out.println(sum);
 
+		
 	}
 }
