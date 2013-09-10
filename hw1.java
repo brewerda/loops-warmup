@@ -9,8 +9,9 @@ public class hw1 {
 	}
 	public void 3(int x) {
 		int sum = 1;
+		double e = 2.71;
 		for (x=n;x > Math.pow(10^-12) ; Math.pow(e^(sum) / n ) {
-			sum = sum + x;
+			sum = sum + ;
 
 		}
 	}
