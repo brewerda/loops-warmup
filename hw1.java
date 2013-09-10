@@ -11,7 +11,7 @@ public class hw1 {
 		int sum = 1;
 		double e = 2.71;
 		for (x=n;x > Math.pow(10^-12) ; Math.pow(e^(sum) / n ) {
-			sum = sum + ;
+			sum = sum + (Math.pow(e^(sum)/ n);
 
 		}
 	}
